@@ -180,4 +180,5 @@ if __name__ == '__main__':
     canvas.pack()
     heart = Heart()
     draw(root, canvas, heart)
+    Label(root,text="Author", bg="black",fg = "#FF69B4",).place(relx = .5,rely =.5,anchor = CENTER)
     root.mainloop()
